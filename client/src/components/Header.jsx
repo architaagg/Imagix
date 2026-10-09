@@ -29,7 +29,7 @@ const Header = () => {
                     <motion.img whileHover={{scale: 1.05, duration: 0.1}} className= 'rounded hover:scale-105 transition-all duration-300 cursor-pointer max-sm:w-10' src={index%2==0?assets.sample_img_2:assets.sample_img_1} alt="" key={index} width={70}/>
                 ))}
             </motion.div>
-            <motion.p initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.2, duration:0.8}} className='mt-2 text-neutral-600'>Generated images from imagify</motion.p>
+            <motion.p initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.2, duration:0.8}} className='mt-2 text-neutral-600'>Generated images from imagix</motion.p>
         </motion.div>
     )
 }
